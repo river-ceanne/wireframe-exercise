@@ -13,23 +13,6 @@ p {
   text-align: center;
 }
 
-#down-message {
-  font-size: 2em;
-  text-align: center;
-}
-
-.roundImage {
-  border-radius: 20px;
-  border: 5px solid #333;
-  padding: 14px;
-}
-
-.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-
 ul.navbar{
   list-style-type: none;
   margin: 0;
@@ -39,17 +22,21 @@ ul.navbar{
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  height: 70px;
+  width: 100%;
 }
 
-li.navEl {
+li {
   float: left;
+  width: 200px;
+  /* height: auto; */
+  text-align: center;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
@@ -69,19 +56,19 @@ div.footer{
 }
 
 span {
+  padding: 15px;
+}
+
+span.scroll {
   display: inline-block;
-  padding-right: 20px;
-  text-align: left;
+  height: 400px;
+  width: 430px;
+  overflow: auto;
+  padding: 10px;
 }
 
 div {
-  padding: 30px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-span p {
-  height: 400px;
-  width: 400px;
-  overflow: auto;
-  border: 1px solid #666;
-  background-color: #ccc;
-  }
