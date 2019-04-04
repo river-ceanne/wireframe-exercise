@@ -1,6 +1,6 @@
 
 body {
-  background-color: darksalmon;
+  background-color:lightsteelblue;
   font-family: 'Marcellus SC', serif;
 }
 
@@ -73,3 +73,15 @@ span {
   padding-right: 20px;
   text-align: left;
 }
+
+div {
+  padding: 30px;
+}
+
+span p {
+  height: 400px;
+  width: 400px;
+  overflow: auto;
+  border: 1px solid #666;
+  background-color: #ccc;
+  }
