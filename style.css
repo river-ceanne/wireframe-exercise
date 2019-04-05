@@ -1,7 +1,6 @@
 
 body {
   background-color:lightsteelblue;
-  font-family: 'Marcellus SC', serif;
 }
 
 h1,h2 {
@@ -30,8 +29,11 @@ ul.navbar{
 li {
   float: left;
   width: 200px;
-  height: auto;
   align-items: center;
+  display: block;
+  color: white;
+  text-align: center;
+  height: 70px;
 }
 
 li a {
@@ -41,8 +43,15 @@ li a {
   height: 70px;  
 }
 
-li a:hover {
+li:hover {
   background-color: #111;
+}
+
+li p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 div.footer{
