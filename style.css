@@ -16,30 +16,29 @@ p {
 ul.navbar{
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  padding-left: 255px;
   overflow: hidden;
   background-color: #333;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky; 
   position: sticky;
   top: 0;
   height: 70px;
   width: 100%;
-  margin-bottom: 15px;
 }
 
 li {
   float: left;
   width: 200px;
   height: auto;
-  text-align: center;
-  left: 0;
-  right: 0;
+  align-items: center;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
+  height: 70px;  
 }
 
 li a:hover {
@@ -63,14 +62,20 @@ span {
 
 span.scroll {
   display: inline-block;
-  height: 400px;
-  width: 440px;
+  height: 390px;
+  width: 430px;
   overflow: auto;
-  padding: 10px;
 }
 
 div {
   padding: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+div.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
